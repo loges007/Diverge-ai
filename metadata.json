@@ -1,0 +1,6 @@
+{
+  "name": "Diverge: Alternative Uses Brain Trainer",
+  "description": "Interactive Alternative Uses Test (AUT) brain training platform for designers to boost lateral and divergent thinking with 4-pillar psychometric evaluation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
