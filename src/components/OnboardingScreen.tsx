@@ -11,8 +11,6 @@ import {
   Sun, 
   Moon, 
   CheckCircle2, 
-  Target,
-  Award,
   Layers,
   ChevronDown,
   ChevronUp
@@ -153,39 +151,6 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({
           }`}>
             You'll get <strong className={darkMode ? 'text-white' : 'text-stone-900'}>1 everyday object</strong>. Race against time to type as many unconventional uses as possible.
           </p>
-        </div>
-
-        {/* 3 Quick Steps */}
-        <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-xl mx-auto w-full">
-          <div className={`p-2 sm:p-2.5 rounded-xl sm:rounded-2xl border text-center ${
-            darkMode ? 'bg-slate-900/80 border-slate-800' : 'bg-white border-stone-200/80'
-          }`}>
-            <div className="flex items-center justify-center gap-1 text-blue-500 mb-0.5">
-              <Target className="w-3 h-3" />
-              <span className="text-[9px] font-mono font-bold uppercase">1. Prompt</span>
-            </div>
-            <div className="font-extrabold text-[11px] sm:text-xs">1 Object</div>
-          </div>
-
-          <div className={`p-2 sm:p-2.5 rounded-xl sm:rounded-2xl border text-center ${
-            darkMode ? 'bg-slate-900/80 border-slate-800' : 'bg-white border-stone-200/80'
-          }`}>
-            <div className="flex items-center justify-center gap-1 text-amber-500 mb-0.5">
-              <Zap className="w-3 h-3" />
-              <span className="text-[9px] font-mono font-bold uppercase">2. Rapid-fire</span>
-            </div>
-            <div className="font-extrabold text-[11px] sm:text-xs">Type Uses</div>
-          </div>
-
-          <div className={`p-2 sm:p-2.5 rounded-xl sm:rounded-2xl border text-center ${
-            darkMode ? 'bg-slate-900/80 border-slate-800' : 'bg-white border-stone-200/80'
-          }`}>
-            <div className="flex items-center justify-center gap-1 text-emerald-500 mb-0.5">
-              <Award className="w-3 h-3" />
-              <span className="text-[9px] font-mono font-bold uppercase">3. Results</span>
-            </div>
-            <div className="font-extrabold text-[11px] sm:text-xs">Get Scored</div>
-          </div>
         </div>
 
         {/* DURATION SELECTOR + PRIMARY CTA (Always Above the Fold, Zero-Scroll) */}
