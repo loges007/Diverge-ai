@@ -52,7 +52,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({
     }`}>
       
       {/* 1. Header Toolbar */}
-      <header className={`px-4 sm:px-8 py-3 sm:py-3.5 flex items-center justify-between border-b backdrop-blur-md sticky top-0 z-20 transition-colors shrink-0 ${
+      <header className={`px-6 sm:px-12 md:px-16 lg:px-24 py-3 sm:py-3.5 flex items-center justify-between border-b backdrop-blur-md sticky top-0 z-20 transition-colors shrink-0 ${
         darkMode ? 'border-slate-800 bg-[#0B0F17]/90' : 'border-stone-200/70 bg-[#FBF9F5]/90'
       }`}>
         <div className="flex items-center gap-2.5">

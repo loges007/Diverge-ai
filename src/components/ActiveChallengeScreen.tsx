@@ -213,7 +213,7 @@ export const ActiveChallengeScreen: React.FC<ActiveChallengeScreenProps> = ({
     }`}>
       
       {/* 1. Header Toolbar */}
-      <header className={`px-6 sm:px-12 py-5 flex items-center justify-between border-b backdrop-blur-md sticky top-0 z-20 transition-colors ${
+      <header className={`px-6 sm:px-12 md:px-16 lg:px-24 py-4 sm:py-5 flex items-center justify-between border-b backdrop-blur-md sticky top-0 z-20 transition-colors ${
         darkMode ? 'border-slate-800 bg-[#0B0F17]/90' : 'border-stone-200/70 bg-[#FBF9F5]/90'
       }`}>
         
